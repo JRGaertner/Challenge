@@ -15,12 +15,18 @@ a {
   box-sizing: border-box;
 }
 
+.navbar a {
+  padding: 0 5px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;
+    text-align: center
   }
 }
